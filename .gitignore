@@ -1,0 +1,40 @@
+# git log --pretty=format:"\`%h <https://www.github.com/MilanSkocic/C_extension_demo/commit/%h>\`_ - %an, %ad : %s" > out.txt
+
+# files to be ignored in all tutorials
+*.aux
+*.blg 
+*.out 
+*.bbl 
+*.log 
+*.nlo 
+*.lof 
+*.lot 
+*.toc 
+*.bcf 
+*.ilg 
+*.xml 
+*.nls 
+*.ind
+*.swp
+*.nav
+*.snm
+*synctex.gz
+*.zip
+*.pdf
+*.so
+*.dll
+*.dylib
+*.pyd
+*.pyc
+*.o
+*.obj
+*.DS_Store
+*.exe
+*.dll
+*egg*
+
+.idea
+
+# pipenv files
+Pipfile
+Pipfile.lock
